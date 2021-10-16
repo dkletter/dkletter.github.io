@@ -1,5 +1,8 @@
 html {
-	font: normal 1em/1.25 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: calc(2em + 1vw);
+	line-height: calc(1.25 + 1vw);
 	text-rendering: optimizeLegibility;
 	-webkit-font-kerning: normal;
 	        font-kerning: normal;
@@ -20,6 +23,8 @@ body {
 	padding: 1em;
 	max-width: 30em;
 }
+
+	
 
 @media all and (min-width: 35em) {
 	body {
