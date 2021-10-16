@@ -18,7 +18,7 @@ body {
 	color: #FFF;
 	margin: 0;
 	padding: 1em;
-    max-width: 30em;
+	max-width: 30em;
 }
 
 @media all and (min-width: 35em) {
