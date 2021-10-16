@@ -1,8 +1,8 @@
 html {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	font-size: calc(1em + 0.5vw);
-	line-height: calc(1.25 + 0.5vw);
+	font-size: calc(20px + 0.5vw);
+	line-height: calc(22px + 0.6vw);
 	text-rendering: optimizeLegibility;
 	-webkit-font-kerning: normal;
 	        font-kerning: normal;
