@@ -13,12 +13,9 @@ html {
 body {
 	background-color: #fff;
 	color: #000;
-	margin: 0;
-    padding: 1em;
-    max-width: 30em;
 }
 a {
-    color: #39FF14;
+    color: #540DFF;
     text-decoration: underline;
 }
 a:hover,
