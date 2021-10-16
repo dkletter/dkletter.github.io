@@ -17,25 +17,9 @@ body {
 	background-size: cover;
 	color: #FFF;
 	margin: 0;
-    padding: 1em;
-}
-@media ( min-width: 35em ) {
-    body {
-        font-size: 3em;
-    }
-
-}
-@media ( min-width: 35em ) and ( max-width: 60em ) {
-    body {
-        font-size: 2em;
-    }
-
-}
-@media ( min-width: 60em ) {
-    body {
-        font-size: 2em;
-    }
-
+	padding: 1em;
+    max-width: 35em;
+    font-size: 2em;
 }
 img {
 	width: 100%;
