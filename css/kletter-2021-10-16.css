@@ -18,15 +18,14 @@ body {
 	color: #FFF;
 	margin: 0;
     padding: 1em;
-    max-width: 30em;
 }
-@media ( min-width: 30em ) {
+@media ( min-width: 35em ) {
     body {
         font-size: 3em;
     }
 
 }
-@media ( min-width: 30em ) and ( max-width: 60em ) {
+@media ( min-width: 35em ) and ( max-width: 60em ) {
     body {
         font-size: 2em;
     }
