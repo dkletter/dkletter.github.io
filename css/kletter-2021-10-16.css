@@ -1,7 +1,11 @@
+:root {
+	--fs-300: 2.5rem;
+}
+
 html {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	font-size: calc(1.3em + 1vw);
+	font-size: var(--fs-300);
 	line-height: 1.2;
 	text-rendering: optimizeLegibility;
 	-webkit-font-kerning: normal;
@@ -11,25 +15,25 @@ html {
         -ms-text-size-adjust: 100%;
             text-size-adjust: 100%;
 }
+
 body {
 	background-color: #222;
 	background-image: 
 		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("../images/IMG_7748.jpg");
+		url("http://dkletter.github.io/images/IMG_7748.jpg");
 	background-position: center;
 	background-size: cover;
 	color: #FFF;
 	margin: 0;
 	padding: 1em;
-	max-width: 65%;
+	width: min(30em, 70%);
 }
-img {
-	width: 100%;
-}
+
 p,
 ul {
     margin-top: 0;
 }
+
 a {
     color: #39FF14;
     text-decoration: underline;
@@ -38,11 +42,13 @@ a:hover,
 a:focus {
     text-decoration: none;
 }
+
 ul {
     list-style: none;
     padding-left: 0;
     margin-left: 0;
 }
+
 li {
     margin-left: 0;
     padding-left: 0;
