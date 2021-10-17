@@ -4,9 +4,9 @@
 
 @media (max-width: 40em) {
 	:root {
-		--fs-300: 3rem;
+		--fs-300: 4rem;
 	}
-	width: 85%;
+	width: 95%;
 }
 
 html {
