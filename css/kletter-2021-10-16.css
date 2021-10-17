@@ -6,6 +6,7 @@
 	:root {
 		--fs-300: calc(2.5rem + 50%);
 	}
+	width: auto;
 }
 
 html {
