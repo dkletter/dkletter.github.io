@@ -2,13 +2,6 @@
 	--fs-300: 2.5rem;
 }
 
-@media (max-width: 40em) {
-	:root {
-		--fs-300: 6rem;
-	}
-	width: auto;
-}
-
 html {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
@@ -33,7 +26,6 @@ body {
 	color: #FFF;
 	margin: 0;
 	padding: 1em;
-	width: 70%;
 }
 
 p,
