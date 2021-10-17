@@ -1,8 +1,8 @@
 :root {
-	--fs-300: 18px;
+	--fs-300: 1.25rem);
 }
 
-@media (min-width: 375px) {
+@media (min-width: 63em) {
 	:root {
 		--fs-300: 2.5rem;
 	}
