@@ -1,5 +1,5 @@
 :root {
-	--fs-300: 1rem;
+	--fs-300: 1.25rem;
 }
 
 @media (min-width: 40em) {
