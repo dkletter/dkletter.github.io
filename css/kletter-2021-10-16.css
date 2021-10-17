@@ -1,6 +1,17 @@
 :root {
-	--fs-300: 2.5rem;
+	--fs-300: 1.5rem;
 }
+
+@media (min-width: 40em) {
+	:root {
+		--fs-300: 2.5rem;
+	}
+
+	body {
+		width: 70%;
+	}
+}
+
 
 html {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
